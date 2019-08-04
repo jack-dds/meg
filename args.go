@@ -168,8 +168,8 @@ func init() {
 
 		h += "Options:\n"
 		h += "  -b, --body <val>           Set the request body\n"
-		h += "  -c, --concurrency <val>    Set the concurrency level (defaut: 20)\n"
-		h += "  -d, --delay <millis>       Milliseconds between requests to the same host (defaut: 5000)\n"
+		h += "  -c, --concurrency <val>    Set the concurrency level (default: 20)\n"
+		h += "  -d, --delay <millis>       Milliseconds between requests to the same host (default: 5000)\n"
 		h += "  -H, --header <header>      Send a custom HTTP header\n"
 		h += "  -L, --location             Follow redirects / location header\n"
 		h += "  -r, --rawhttp              Use the rawhttp library for requests (experimental)\n"
